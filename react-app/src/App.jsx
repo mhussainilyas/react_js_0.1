@@ -1,10 +1,10 @@
 import React from "react";
-import Parent from "./Props/Children Props/Parent";
+import Weather from "./Conditional Rendering/Challenge Task/weather";
 
 const App = () => {
   return (
     <div>
-      <Parent />
+      <Weather />
     </div>
   );
 };
