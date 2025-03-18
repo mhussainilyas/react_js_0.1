@@ -1,10 +1,10 @@
 import React from "react";
-import ObjectsWithJSXExpression from "./JSX/ObjectsWithJSXExpression";
+import ListWithDestructuring from "./Rendering lists of data/ListWithDestructuring";
 
 const App = () => {
   return (
     <div>
-      <ObjectsWithJSXExpression />
+      <ListWithDestructuring />
     </div>
   );
 };
