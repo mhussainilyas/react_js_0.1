@@ -1,10 +1,10 @@
 import React from "react";
-import JSXRules from "./JSX/JSXRules";
+import ObjectsWithJSXExpression from "./JSX/ObjectsWithJSXExpression";
 
 const App = () => {
   return (
     <div>
-      <JSXRules />
+      <ObjectsWithJSXExpression />
     </div>
   );
 };
