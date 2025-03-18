@@ -1,10 +1,10 @@
 import React from "react";
-import ListWithDestructuring from "./Rendering lists of data/ListWithDestructuring";
+import Parent from "./Props/Children Props/Parent";
 
 const App = () => {
   return (
     <div>
-      <ListWithDestructuring />
+      <Parent />
     </div>
   );
 };
