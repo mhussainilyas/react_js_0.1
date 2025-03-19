@@ -1,10 +1,10 @@
 import React from "react";
-import ReactIcons from "./React Icons/ReactIcons";
+import BasicEvents from "./Events/BasicEvents";
 
 const App = () => {
   return (
     <div>
-      <ReactIcons />
+      <BasicEvents />
     </div>
   );
 };
