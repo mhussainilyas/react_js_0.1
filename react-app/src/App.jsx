@@ -1,10 +1,10 @@
 import React from "react";
-import Weather from "./Conditional Rendering/Challenge Task/weather";
+import ExternalStyle from "./CSS Style In React/ExternalStyle";
 
 const App = () => {
   return (
     <div>
-      <Weather />
+      <ExternalStyle />
     </div>
   );
 };
