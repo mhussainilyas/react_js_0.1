@@ -1,10 +1,10 @@
 import React from "react";
-import ExternalStyle from "./CSS Style In React/ExternalStyle";
+import ReactIcons from "./React Icons/ReactIcons";
 
 const App = () => {
   return (
     <div>
-      <ExternalStyle />
+      <ReactIcons />
     </div>
   );
 };
