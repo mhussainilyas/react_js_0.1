@@ -1,10 +1,10 @@
 import React from "react";
-import BasicEvents from "./Events/BasicEvents";
+import ShoppingList from "./States/Challenge Tasks/ShoppingList";
 
 const App = () => {
   return (
     <div>
-      <BasicEvents />
+      <ShoppingList />
     </div>
   );
 };
