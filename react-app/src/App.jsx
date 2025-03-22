@@ -1,10 +1,10 @@
 import React from "react";
-import Switcher from "./Portal/Toggle Switch Example/Switcher";
+import FetchDataEffect from "./Hooks/UseEffect Hook/Challenge Task/FetchDataEffect";
 
 const App = () => {
   return (
     <div>
-      <Switcher />
+      <FetchDataEffect />
     </div>
   );
 };
