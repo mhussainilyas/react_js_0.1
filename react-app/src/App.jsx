@@ -1,10 +1,15 @@
 import React from "react";
-import FetchDataEffect from "./Hooks/UseEffect Hook/Challenge Task/FetchDataEffect";
+import { UserContextProvider } from "./Context API/Context API Using UseContext Hook/UserContextProvider";
+import UserContextProviderChild from "./Context API/Context API Using UseContext Hook/UserContextProviderChild";
+import UpdateUserContextProvider from "./Context API/Context API Using UseContext Hook/UpdateUserContextProvider";
 
 const App = () => {
   return (
     <div>
-      <FetchDataEffect />
+      <UserContextProvider>
+        <UserContextProviderChild />
+        <UpdateUserContextProvider />
+      </UserContextProvider>
     </div>
   );
 };
