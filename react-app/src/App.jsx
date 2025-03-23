@@ -1,15 +1,10 @@
 import React from "react";
-import { UserContextProvider } from "./Context API/Context API Using UseContext Hook/UserContextProvider";
-import UserContextProviderChild from "./Context API/Context API Using UseContext Hook/UserContextProviderChild";
-import UpdateUserContextProvider from "./Context API/Context API Using UseContext Hook/UpdateUserContextProvider";
+import CounterReducer from "./Hooks/UseReducer Hook/Challenge Task/CounterReducer";
 
 const App = () => {
   return (
     <div>
-      <UserContextProvider>
-        <UserContextProviderChild />
-        <UpdateUserContextProvider />
-      </UserContextProvider>
+      <CounterReducer />
     </div>
   );
 };
