@@ -1,10 +1,10 @@
 import React from "react";
-import CounterReducer from "./Hooks/UseReducer Hook/Challenge Task/CounterReducer";
+import UseIdHook from "./Hooks/UseId Hook/UseIdHook";
 
 const App = () => {
   return (
     <div>
-      <CounterReducer />
+      <UseIdHook />
     </div>
   );
 };
